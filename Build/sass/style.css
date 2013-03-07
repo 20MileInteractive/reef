@@ -1,0 +1,105 @@
+#masthead {
+  width: 90%;
+  max-width: 1024px;
+  margin: 0 auto; }
+
+#nav-form {
+  width: 90%;
+  margin: 0 auto; }
+
+#logo {
+  display: block;
+  margin: 1em auto; }
+
+#hero {
+  background: #eeeeee;
+  margin: 0;
+  padding: 3em 0; }
+  #hero figure {
+    width: 75%;
+    margin: 0 auto;
+    max-width: 600px; }
+  #hero figcaption {
+    background: #777777;
+    color: #eee;
+    padding: 1em; }
+  #hero p {
+    text-align: center;
+    font-size: 1em; }
+    #hero p a {
+      font-size: 1rem; }
+  #hero p:last-child {
+    margin: 0; }
+
+#choose-reef {
+  background: #777777;
+  color: #fff;
+  padding: 2em 0; }
+  #choose-reef h3, #choose-reef h5 {
+    color: #fff; }
+  #choose-reef h5 {
+    border-bottom: 1px solid #919191;
+    margin-bottom: .5em;
+    padding-bottom: .2em; }
+  #choose-reef #team img {
+    float: left;
+    width: 35%; }
+  #choose-reef #team p {
+    width: 60%;
+    float: right; }
+  #choose-reef #team a {
+    margin-top: 1em; }
+  #choose-reef #blog-teaser p {
+    color: #eeeeee;
+    text-transform: capitalize; }
+
+@media only screen and (min-width: 30em) {
+  #masthead {
+    height: 125px;
+    position: relative; }
+
+  #logo {
+    position: absolute;
+    bottom: 0;
+    left: 0; }
+
+  #nav-form {
+    width: 200px;
+    position: absolute;
+    bottom: 0;
+    right: 0; }
+
+  #navigation {
+    clear: both;
+    background: #111; }
+    #navigation nav {
+      margin: 0 auto; } }
+@media only screen and (min-width: 40em) {
+  #hero {
+    *zoom: 1;
+    background: #eeeeee;
+    margin: 0;
+    padding: 3em 0; }
+    #hero:before, #hero:after {
+      content: " ";
+      display: table; }
+    #hero:after {
+      clear: both; }
+    #hero figure {
+      width: 90%;
+      max-width: 960px; }
+    #hero img {
+      width: 60%;
+      float: left;
+      max-width: 600px; }
+    #hero figcaption {
+      width: 30%;
+      background: #777777;
+      float: right;
+      color: #eee;
+      padding: 1em; }
+    #hero p {
+      text-align: center;
+      font-size: 1.3em; }
+    #hero p:last-child {
+      margin: 0; } }

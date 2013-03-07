@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<!--[if IE 8]> 				 <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+
+
+<head>
+	<meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <title>Reef Cape Cod Builders</title>
+  <link rel='stylesheet' href='css/normalize.css'>
+  <link rel='stylesheet' href='css/foundation.css'>
+  <link rel='stylesheet' href='sass/style.css'>
+  
+        <!-- Hammer reload -->
+          <script>
+            setInterval(function(){
+              try {
+                if(typeof ws != 'undefined' && ws.readyState == 1){return true;}
+                ws = new WebSocket('ws://'+(location.host || 'localhost').split(':')[0]+':35353')
+                ws.onopen = function(){ws.onclose = function(){document.location.reload()}}
+                ws.onmessage = function(){
+                  var links = document.getElementsByTagName('link'); 
+                    for (var i = 0; i < links.length;i++) { 
+                    var link = links[i]; 
+                    if (link.rel === 'stylesheet' && !link.href.match(/typekit/)) { 
+                      href = link.href.replace(/((&|\?)hammer=)[^\&]+/,''); 
+                      link.href = href + (href.indexOf('?')>=0?'&':'?') + 'hammer='+(new Date().valueOf());
+                    }
+                  }
+                }
+              }catch(e){}
+            }, 1000)
+          </script>
+        <!-- /Hammer reload -->
+      
+
+  <script src="js/vendor/custom.modernizr.js"></script>
+
+</head>
+<body>
+
+<div id="masthead">
+	<img id="logo" src="http://placehold.it/200x100&text=REEF+LOGO"/>
+	<form id="nav-form">
+	      <input type="text" value="search">
+	</form>
+</div>
+
+<div id="navigation" class="contain-to-grid">
+
+	<nav class="top-bar">
+		<ul class="title-area">
+	    <!-- Title Area -->
+	    <li class="name">
+	    </li>
+	
+	    <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+	    <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+	  </ul>
+	 
+	  <section class="top-bar-section">
+		  <ul class="left">
+		    <li><a href="">Home Plans &amp; Pricing</a></li>
+		    <li><a href="">Portfolio</a></li>
+		    <li><a href="">Why Choose Reef?</a></li>
+		    <li><a href="">Building a Cape Cod Home</a></li>
+		    <li><a href="">Design &amp; Building Articles</a></li>
+		    <li><a href="">Contact Us</a></li>
+		  </ul>
+		  
+	  </section>
+	</nav>
+</div>
+
+<div id="hero">
+	<figure>
+		<img src="http://placehold.it/800x500&text=VIDEO"/>
+		<figcaption>
+		<p>&quot;Thank you REEF for making my dream home come true.&quot;
+		</p>
+		<p>
+			<a class="button" href="">See Jane's Story</a>
+		</p>
+		</figcaption>
+	</figure>
+	
+	
+</div><!-- end hero -->
+
+<div id="choose-reef">
+	<div class="row">
+		<div id="team" class="large-8 columns">
+		<h3>Why Choose Reef?</h3>
+		<img src="http://placehold.it/150x110&text=Headshots" />
+		<p>The team at REEF has over 35 years building experience. We've helped hundreds of people build their Cape Cod Dream home.<br/>
+		<a class="button">Meet Us</a> 
+		</p>
+		</div>
+		<div id="blog-teaser" class="large-3 push-1 columns">
+			<h5>Latest Building Articles</h5>
+			
+			<article>
+				<p>Pick The Best Kitchen Design For Your Cape Cod Home
+				</p>
+			</article>
+			
+			<article>
+				<p>Singing in the shower? Add some music to your remodeling project
+				</p>
+			</article>
+			
+			
+		</div>
+	</div>
+</div><!-- end choose reef -->
+
+
+  <script>
+  document.write('<script src=' +
+  ('__proto__' in {} ? 'js/vendor/zepto' : 'js/vendor/jquery') +
+  '.js><\/script>')
+  </script>
+  
+  <script src="js/foundation.min.js"></script>
+  <!--
+  
+  <script src="js/foundation/foundation.js"></script>
+  
+  <script src="js/foundation/foundation.alerts.js"></script>
+  
+  <script src="js/foundation/foundation.clearing.js"></script>
+  
+  <script src="js/foundation/foundation.cookie.js"></script>
+  
+  <script src="js/foundation/foundation.dropdown.js"></script>
+  
+  <script src="js/foundation/foundation.forms.js"></script>
+  
+  <script src="js/foundation/foundation.joyride.js"></script>
+  
+  <script src="js/foundation/foundation.magellan.js"></script>
+  
+  <script src="js/foundation/foundation.orbit.js"></script>
+  
+  <script src="js/foundation/foundation.placeholder.js"></script>
+  
+  <script src="js/foundation/foundation.reveal.js"></script>
+  
+  <script src="js/foundation/foundation.section.js"></script>
+  
+  <script src="js/foundation/foundation.tooltips.js"></script>
+  
+  <script src="js/foundation/foundation.topbar.js"></script>
+  
+  -->
+  
+  <script>
+    $(document).foundation();
+  </script>
+</body>
+</html>

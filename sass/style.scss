@@ -1,0 +1,180 @@
+$lt: #eee;
+$md: #777;
+$dk:#444;
+$link:#2ba6cb;
+
+#masthead{
+	width:90%;
+	max-width: 1024px;
+	margin: 0 auto;
+
+}
+
+#nav-form{
+	width: 90%;
+	margin: 0 auto;
+}
+
+#logo{
+	display: block;
+	margin: 1em auto;
+}
+
+#hero{
+
+background:$lt;
+margin: 0;
+padding: 3em 0;
+
+	figure{
+		width: 75%;
+		margin: 0 auto;
+		max-width: 600px;
+	}
+	figcaption{
+		background: $md;
+		color: #eee;
+		padding: 1em;
+	}
+	
+	p{
+		text-align: center;
+		font-size: 1em;
+		
+		a{
+			font-size: 1rem;
+		}
+		
+		
+	}
+	p:last-child{
+		margin: 0;
+	}
+}
+
+
+
+#choose-reef{
+	background: $md;
+	color: #fff;
+	padding: 2em 0;
+	
+	h3,h5{
+		color: #fff;
+	}
+	
+	h5{
+		border-bottom: 1px solid lighten($md,10%);
+		margin-bottom: .5em;
+		padding-bottom: .2em;
+	}
+	
+	#team{
+		img{
+			float: left;
+			width: 35%;
+		}
+		
+		p{
+			width: 60%;
+			float: right;
+		}
+		
+		a{
+			margin-top: 1em;
+		}
+	}
+	
+	
+	#blog-teaser{
+		p{
+			color: $lt;
+		text-transform: capitalize;			
+		}
+		
+	}
+}
+
+
+
+
+
+
+@media only screen and (min-width: 30em) {
+	
+	
+	#masthead{
+		height: 125px;
+		position: relative;
+	}
+	
+	#logo{
+		position: absolute;
+		bottom: 0;
+		left: 0;
+	}	
+	
+	#nav-form{
+		width: 200px;
+		position: absolute;
+		bottom: 0;
+		right: 0;
+	}
+
+	#navigation{
+		clear:both;
+		background: #111;
+		
+		nav{
+			margin: 0 auto;
+		}
+	}
+
+
+
+
+} 
+
+
+@media only screen and (min-width: 40em) {
+
+#hero{
+@include clearfix;
+background:$lt;
+margin: 0;
+padding: 3em 0;
+
+	figure{
+		width: 90%;
+		max-width: 960px;
+	}
+
+	img{
+		width: 60%;
+		float: left;
+		max-width: 600px;
+	}
+	figcaption{
+		width: 30%;
+		background: $md;
+		float: right;
+		color: #eee;
+		padding: 1em;
+		
+	}
+	
+	p{
+		text-align: center;
+		font-size: 1.3em;
+		
+		
+		
+	}
+	p:last-child{
+		margin: 0;
+	}
+}
+
+
+}
+
