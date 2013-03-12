@@ -1,15 +1,14 @@
+<body>
+
 <!DOCTYPE html>
-<!--[if IE 8]> 				 <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang="en"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 
-
 <head>
-	<meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width" />
-  <title>Reef Cape Cod Builders</title>
-  <link rel='stylesheet' href='css/normalize.css'>
-  <link rel='stylesheet' href='css/foundation.css'>
-  <link rel='stylesheet' href='sass/style.css'>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Reef | Cape Cod Builders</title>
+
   
         <!-- Hammer reload -->
           <script>
@@ -34,16 +33,19 @@
         <!-- /Hammer reload -->
       
 
-  <script src="js/vendor/custom.modernizr.js"></script>
+  <link rel='stylesheet' href='assets/css/normalize.css'>
+  <link rel='stylesheet' href='assets/css/styles.css'>
+
+  <script src='assets/js/vendor/custom.modernizr.js'></script>
 
 </head>
 <body>
-
 <div id="masthead">
 	<img id="logo" src="http://placehold.it/200x100&text=REEF+LOGO"/>
-	<form id="nav-form">
-	      <input type="text" value="search">
-	</form>
+   <form id="header-form">
+   	<input type="text">
+    <a href="#" class="small secondary button">Search</a>
+   </form>
 </div>
 
 <div id="navigation" class="contain-to-grid">
@@ -60,12 +62,25 @@
 	 
 	  <section class="top-bar-section">
 		  <ul class="left">
+		    
 		    <li><a href="">Home Plans &amp; Pricing</a></li>
 		    <li><a href="">Portfolio</a></li>
 		    <li><a href="">Why Choose Reef?</a></li>
 		    <li><a href="">Building a Cape Cod Home</a></li>
 		    <li><a href="">Design &amp; Building Articles</a></li>
 		    <li><a href="">Contact Us</a></li>
+<li class="has-form">
+        <form id="nav-form">
+          <div class="row collapse">
+            <div class="small-8 columns">
+              <input class="small" type="text">
+            </div>
+            <div class="small-4 columns">
+              <a href="#" class="secondary button">Search</a>
+            </div>
+          </div>
+        </form>
+      </li>
 		  </ul>
 		  
 	  </section>
@@ -114,48 +129,66 @@
 	</div>
 </div><!-- end choose reef -->
 
+<div id="home-plans">
+<h2>Find Your Dream Home</h2>
+<section>
+		<img src="http://placehold.it/250x150&text=House+Photo" />
+		<h3>Affordable Homes</h3>
+		<p>Affordable home plans include all permits, painting, landscaping and more. </p>
+		<a class="small button" href="">See Plans &amp; Pricing</a> 
+</section>
 
-  <script>
-  document.write('<script src=' +
-  ('__proto__' in {} ? 'js/vendor/zepto' : 'js/vendor/jquery') +
-  '.js><\/script>')
-  </script>
-  
-  <script src="js/foundation.min.js"></script>
-  <!--
-  
-  <script src="js/foundation/foundation.js"></script>
-  
-  <script src="js/foundation/foundation.alerts.js"></script>
-  
-  <script src="js/foundation/foundation.clearing.js"></script>
-  
-  <script src="js/foundation/foundation.cookie.js"></script>
-  
-  <script src="js/foundation/foundation.dropdown.js"></script>
-  
-  <script src="js/foundation/foundation.forms.js"></script>
-  
-  <script src="js/foundation/foundation.joyride.js"></script>
-  
-  <script src="js/foundation/foundation.magellan.js"></script>
-  
-  <script src="js/foundation/foundation.orbit.js"></script>
-  
-  <script src="js/foundation/foundation.placeholder.js"></script>
-  
-  <script src="js/foundation/foundation.reveal.js"></script>
-  
-  <script src="js/foundation/foundation.section.js"></script>
-  
-  <script src="js/foundation/foundation.tooltips.js"></script>
-  
-  <script src="js/foundation/foundation.topbar.js"></script>
-  
-  -->
-  
-  <script>
-    $(document).foundation();
-  </script>
+<section>
+		<img src="http://placehold.it/250x150&text=House+Photo" />
+		<h3>Mid-Range Homes</h3>
+		<p>Mid-range home plans include all permits, painting, landscaping and more. </p>
+		<a class="small button" href="">See Plans &amp; Pricing</a> 
+</section>
+
+
+<section>
+		<img src="http://placehold.it/250x150&text=House+Photo" />
+		<h3>Custom Homes</h3>
+		<p>Fully Custom home plans include all permits, painting, landscaping and more. </p>
+		<a class="small button" href="">See Plans &amp; Pricing</a> 
+</section>
+
+
+
+
+</div><!-- end home plans -->
+
+<div id="footer">
+	<div class="row">
+		<div class="12 columns">
+			<ul>
+			<li>REEF Cape Cod Builders</li>
+			<li>508-394-3090</li>
+			<li>info@capecodbuilder.com</li>
+			</ul>
+		</div>
+	</div>
+	
+
+
+	
+</div>
+
+    <script src='assets/js/vendor/jquery.js'></script>
+    <script src='assets/js/vendor/foundation/foundation.js'></script>
+    <script src='assets/js/vendor/foundation/foundation.alerts.js'></script>
+    <script src='assets/js/vendor/foundation/foundation.clearing.js'></script>
+    <script src='assets/js/vendor/foundation/foundation.cookie.js'></script>
+    <script src='assets/js/vendor/foundation/foundation.dropdown.js'></script>
+    <script src='assets/js/vendor/foundation/foundation.forms.js'></script>
+    <script src='assets/js/vendor/foundation/foundation.joyride.js'></script>
+    <script src='assets/js/vendor/foundation/foundation.magellan.js'></script>
+    <script src='assets/js/vendor/foundation/foundation.orbit.js'></script>
+    <script src='assets/js/vendor/foundation/foundation.placeholder.js'></script>
+    <script src='assets/js/vendor/foundation/foundation.reveal.js'></script>
+    <script src='assets/js/vendor/foundation/foundation.section.js'></script>
+    <script src='assets/js/vendor/foundation/foundation.tooltips.js'></script>
+    <script src='assets/js/vendor/foundation/foundation.topbar.js'></script>
+	<script src='assets/js/script.js'></script>
 </body>
 </html>
