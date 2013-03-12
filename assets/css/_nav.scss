@@ -1,0 +1,66 @@
+#masthead{
+	width:90%;
+	max-width: 1024px;
+	margin: 0 auto;
+
+}
+
+#header-form{
+	display:none;
+	
+}
+
+#nav-form{
+}
+
+#logo{
+	display: block;
+	margin: 1em auto;
+}
+
+
+@media only screen and (min-width: 40em) {
+
+}
+
+
+
+@media only screen and (min-width: 60em) {
+	
+	#nav-form{
+		display: none;
+		}
+
+	#masthead{
+		position: relative;
+	}
+	
+	#header-form{
+		display: inherit;
+		width: 300px;
+		position: absolute;
+		top: 0;
+		right: 0;
+		
+		input{
+			float: left;
+			width: 75%;
+			padding-top: 0.5625em;
+			padding-bottom: 0.625em;
+			font-size: 0.8125em;
+		}
+		
+		.button{
+			width: 25%;
+		}
+		
+	}
+	
+	#logo{
+	
+	margin: 1em 0 1em 0;
+	}
+	
+	
+
+}
