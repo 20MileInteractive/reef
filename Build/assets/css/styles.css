@@ -3843,21 +3843,29 @@ you can use the generic selector below, but it's slower:
   background: #eeeeee;
   margin: 0;
   padding: 3em 0; }
-  #hero figure {
-    width: 75%;
+  #hero #video {
+    width: 90%;
     margin: 0 auto;
-    max-width: 600px; }
-  #hero figcaption {
-    background: #777777;
-    color: #eee;
-    padding: 1em; }
-  #hero p {
-    text-align: center;
-    font-size: 1em; }
-    #hero p a {
-      font-size: 1rem; }
-  #hero p:last-child {
-    margin: 0; }
+    max-width: 800px; }
+  #hero #play-video {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 800px;
+    background: #999;
+    *zoom: 1;
+    background: #999999 url(../images/play-icon.png) 2% center no-repeat;
+    background-size: 20px; }
+    #hero #play-video:before, #hero #play-video:after {
+      content: " ";
+      display: table; }
+    #hero #play-video:after {
+      clear: both; }
+    #hero #play-video span {
+      background: #333;
+      display: block;
+      margin: 0.7rem 0.7rem 0.7rem 3rem;
+      border-radius: 100px;
+      font-size: .5em; }
 
 #choose-reef {
   background: #777777;
@@ -3881,6 +3889,8 @@ you can use the generic selector below, but it's slower:
     color: #eeeeee;
     text-transform: capitalize; }
 
+#home-plans img {
+  margin-bottom: 1rem; }
 #home-plans h2 {
   text-align: center; }
 #home-plans section {
@@ -3890,35 +3900,23 @@ you can use the generic selector below, but it's slower:
   padding-top: 2em;
   width: 90%; }
 
+#footer {
+  background: #333; }
+  #footer ul {
+    list-style-type: none;
+    color: #eeeeee;
+    text-align: center; }
+  #footer li {
+    padding: 0.3rem 0; }
+
 @media only screen and (min-width: 40em) {
-  #hero {
-    *zoom: 1;
-    background: #eeeeee;
-    margin: 0;
-    padding: 3em 0; }
-    #hero:before, #hero:after {
-      content: " ";
-      display: table; }
-    #hero:after {
-      clear: both; }
-    #hero figure {
-      width: 90%;
-      max-width: 960px; }
-    #hero img {
-      width: 60%;
-      float: left;
-      max-width: 600px; }
-    #hero figcaption {
-      width: 30%;
-      background: #777777;
-      float: right;
-      color: #eee;
-      padding: 1em; }
-    #hero p {
-      text-align: center;
-      font-size: 1.3em; }
-    #hero p:last-child {
-      margin: 0; } }
+  #footer li {
+    display: inline-block;
+    padding: 0 0.5rem;
+    margin: 1rem 0.5rem;
+    border-right: 1px solid #777777; }
+  #footer li:last-child {
+    border-right: none; } }
 @media only screen and (min-width: 60em) {
   #home-plans {
     width: 90%;
