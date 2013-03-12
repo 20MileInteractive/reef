@@ -1,0 +1,34 @@
+// video color
+$video: #eee;
+$controls: #333;
+$play: #000;
+
+#container{
+	width: 70%;
+	margin: 5em auto;
+
+
+figure{
+	background: $video;
+	height: 0;
+	padding-bottom: 60%;
+	position: relative;
+}
+
+figcaption{
+	background: $controls;
+	display: block;
+	background: red;
+}
+
+
+#play {
+	width: 0; 
+	height: 0; 
+	border-top: 10px solid transparent;
+	border-bottom: 10px solid transparent;
+	
+	border-left: 10px solid $play;
+}
+
+}
