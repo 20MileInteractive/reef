@@ -3839,52 +3839,8 @@ you can use the generic selector below, but it's slower:
 .icon-facebook:before {
   content: "\66"; }
 
-#container {
-  width: 70%;
-  margin: 5em auto; }
-  #container figure {
-    background: #eeeeee;
-    height: 0;
-    padding-bottom: 60%;
-    position: relative; }
-  #container figcaption {
-    background: #333333;
-    display: block;
-    background: red; }
-  #container #play {
-    width: 0;
-    height: 0;
-    border-top: 10px solid transparent;
-    border-bottom: 10px solid transparent;
-    border-left: 10px solid black; }
-
 #hero {
-  background: #eeeeee;
-  margin: 0;
-  padding: 3em 0; }
-  #hero #video {
-    width: 90%;
-    margin: 0 auto;
-    max-width: 800px; }
-  #hero #play-video {
-    width: 90%;
-    margin: 0 auto;
-    max-width: 800px;
-    background: #999;
-    *zoom: 1;
-    background: #999999 url(../images/play-icon.png) 2% center no-repeat;
-    background-size: 20px; }
-    #hero #play-video:before, #hero #play-video:after {
-      content: " ";
-      display: table; }
-    #hero #play-video:after {
-      clear: both; }
-    #hero #play-video span {
-      background: #333;
-      display: block;
-      margin: 0.7rem 0.7rem 0.7rem 3rem;
-      border-radius: 100px;
-      font-size: .5em; }
+  background: #eeeeee; }
 
 #choose-reef {
   background: #777777;
@@ -3908,16 +3864,18 @@ you can use the generic selector below, but it's slower:
     color: #eeeeee;
     text-transform: capitalize; }
 
-#home-plans img {
-  margin-bottom: 1rem; }
-#home-plans h2 {
-  text-align: center; }
-#home-plans section {
-  text-align: center;
-  margin: 2em auto;
-  border-top: 1px solid #eeeeee;
-  padding-top: 2em;
-  width: 90%; }
+#home-plans {
+  margin-top: 3rem; }
+  #home-plans img {
+    margin-bottom: 1rem; }
+  #home-plans h2 {
+    text-align: center; }
+  #home-plans section {
+    text-align: center;
+    margin: 2em auto;
+    border-top: 1px solid #eeeeee;
+    padding-top: 2em;
+    width: 90%; }
 
 #footer {
   background: #333; }
