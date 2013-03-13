@@ -23,32 +23,8 @@ $link:#2ba6cb;
 
 #hero{
 background:$lt;
-margin: 0;
-padding: 3em 0;
 
-	#video{
-		width: 90%;
-		margin: 0 auto;
-		max-width: 800px;
-	}
-	
-	#play-video{
-		width: 90%;
-		margin: 0 auto;
-		max-width: 800px;
-		background: #999;
-		@include clearfix;
-		background: #999 url(play-icon.png) 2% center no-repeat;
-		background-size: 20px;
-		
-		span{
-			background: #333;
-			display:block;
-			margin: .7rem .7rem .7rem 3rem;
-			border-radius: 100px;	
-			font-size: .5em;
-					
-		}
+	.orbit-container{
 	}
 
 }
@@ -97,6 +73,7 @@ padding: 3em 0;
 
 
 #home-plans{
+	margin-top: 3rem;
 
 	img{
 		margin-bottom: 1rem;
