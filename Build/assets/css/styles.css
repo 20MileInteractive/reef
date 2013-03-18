@@ -3839,6 +3839,28 @@ you can use the generic selector below, but it's slower:
 .icon-facebook:before {
   content: "\66"; }
 
+.plans {
+  border-bottom: 1px solid #eeeeee;
+  padding: 2rem 0 1rem 0; }
+  .plans img {
+    float: left;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 1rem 1rem 0; }
+
+p.house-buttons a:first-child {
+  margin-right: 1rem; }
+
+a#filter-toggle {
+  text-align: center;
+  padding: .5rem;
+  margin-top: 2rem;
+  background: #eeeeee;
+  border-radius: 10px; }
+
+input[type=submit] {
+  width: 100%; }
+
 #hero {
   background: #eeeeee; }
 

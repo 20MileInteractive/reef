@@ -1,0 +1,284 @@
+<body>
+
+<!DOCTYPE html>
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Reef | Cape Cod Builders</title>
+
+  
+        <!-- Hammer reload -->
+          <script>
+            setInterval(function(){
+              try {
+                if(typeof ws != 'undefined' && ws.readyState == 1){return true;}
+                ws = new WebSocket('ws://'+(location.host || 'localhost').split(':')[0]+':35353')
+                ws.onopen = function(){ws.onclose = function(){document.location.reload()}}
+                ws.onmessage = function(){
+                  var links = document.getElementsByTagName('link'); 
+                    for (var i = 0; i < links.length;i++) { 
+                    var link = links[i]; 
+                    if (link.rel === 'stylesheet' && !link.href.match(/typekit/)) { 
+                      href = link.href.replace(/((&|\?)hammer=)[^\&]+/,''); 
+                      link.href = href + (href.indexOf('?')>=0?'&':'?') + 'hammer='+(new Date().valueOf());
+                    }
+                  }
+                }
+              }catch(e){}
+            }, 1000)
+          </script>
+        <!-- /Hammer reload -->
+      
+
+  <link rel='stylesheet' href='assets/css/normalize.css'>
+  <link rel='stylesheet' href='assets/css/styles.css'>
+
+  <script src='assets/js/vendor/custom.modernizr.js'></script>
+
+
+
+
+</head>
+<body>
+<div id="masthead">
+	<a href="index.html"><img id="logo" src="http://placehold.it/200x100&text=REEF+LOGO"/></a>
+   <form id="header-form">
+   	<input type="text">
+    <a href="#" class="small secondary button">Search</a>
+   </form>
+</div>
+
+<div id="navigation" class="contain-to-grid">
+
+	<nav class="top-bar">
+		<ul class="title-area">
+	    <!-- Title Area -->
+	    <li class="name">
+	    </li>
+	
+	    <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+	    <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+	  </ul>
+	 
+	  <section class="top-bar-section">
+		  <ul class="left">
+		    
+		    <li class='current'><a class='current' href="home-plans.html">Home Plans &amp; Features</a></li>
+		    <li><a href="portfolio.html">Portfolio</a></li>
+		    <li><a href="why-choose-reef.html">Why Choose Reef?</a></li>
+		    <li><a href="building-a-home.html">Building a Cape Cod Home</a></li>
+		    <li><a href="blog.html">Design &amp; Building Blog</a></li>
+		    <li><a href="contact.html">Contact Us</a></li>
+<li class="has-form">
+        <form id="nav-form">
+          <div class="row collapse">
+            <div class="small-8 columns">
+              <input class="small" type="text">
+            </div>
+            <div class="small-4 columns">
+              <a href="#" class="secondary button">Search</a>
+            </div>
+          </div>
+        </form>
+      </li>
+		  </ul>
+		  
+	  </section>
+	</nav>
+</div>
+
+
+<div class="row">
+	<div class="large-12 columns">	
+		<h2>Home Plans &amp; Pricing</h2>
+	</div>
+</div>
+
+<div class="row">
+
+	<aside class="large-3 columns">	
+	<a id="filter-toggle" class="show-for-small" href="#">See Filter Options</a>	
+		<form id="filters" class="custom hide-for-small">
+		  <fieldset>
+		    <legend><a name="filters">Filters</a></legend>
+
+						<label for="customDropdown">Price Range</label>
+						  <select id="customDropdown">
+						    <option>No Preference</option>
+						    <option>Under $300K</option>
+						    <option>$300K - $500K</option>
+						    <option>Over $500K</option>
+						  </select>		    
+
+						<label for="customDropdown">Bedrooms</label>
+						  <select id="customDropdown">
+						    <option>No Preference</option>
+						    <option>2</option>
+						    <option>3</option>
+						    <option>4+</option>
+						  </select>		    
+		    
+						<label for="customDropdown">Bathrooms</label>
+						  <select id="customDropdown">
+						    <option>No Preference</option>
+						    <option>1 &#189;</option>
+						    <option>2</option>
+						    <option>3</option>						    
+						  </select>		    
+		    <br/>
+			    	<input type="submit" class=" small  secondary button" value="Apply Filters"/>
+		    		    
+		  </fieldset>
+		</form>
+	</aside>
+	
+	<section class="large-9 columns">		
+		<article class="row plans">
+			<div class="large-5 columns">
+				<img src="http://placehold.it/600x400&text=photo"/>
+			</div>
+		
+			<div class="large-7 columns">
+				<h5>Spacious Saltbox</h5>
+				<p>This delightful Saltbox is one of the most efficient designs we build and the “Best Bang for the Buck!”
+				</p>
+				
+				<p class="house-buttons"><a class="button small" href="">View Plan [PDF]</a><a class="button small secondary" href="">Get A Price</a>
+				</p>
+			</div>
+		
+		</article>
+
+		<article class="row plans">
+			<div class="large-5 columns">
+				<img src="http://placehold.it/600x400&text=photo"/>
+			</div>
+		
+			<div class="large-7 columns">
+				<h5>Half Cape Ranch</h5>
+				<p>But it doesn’t look like a Ranch! Living doesn’t have to lack style and beauty. We call this a Half Cape Ranch because of its authentic look.
+				</p>
+				
+				<p class="house-buttons"><a class="button small" href="">View Plan [PDF]</a><a class="button small secondary" href="">Get A Price</a>
+				</p>
+			</div>
+		
+		</article>
+
+
+		<article class="row plans">
+			<div class="large-5 columns">
+				<img src="http://placehold.it/600x400&text=photo"/>
+			</div>
+		
+			<div class="large-7 columns">
+				<h5>Traditional Cape</h5>
+				<p>But it doesn’t look like a Ranch! Living doesn’t have to lack style and beauty. We call this a Half Cape Ranch because of its authentic look.
+				</p>
+				
+				<p class="house-buttons"><a class="button small" href="">View Plan [PDF]</a><a class="button small secondary" href="">Get A Price</a>
+				</p>
+			</div>
+		
+		</article>
+
+
+		<article class="row plans">
+			<div class="large-5 columns">
+				<img src="http://placehold.it/600x400&text=photo"/>
+			</div>
+		
+			<div class="large-7 columns">
+				<h5>Green Revival</h5>
+				<p>But it doesn’t look like a Ranch! Living doesn’t have to lack style and beauty. We call this a Half Cape Ranch because of its authentic look.
+				</p>
+				
+				<p class="house-buttons"><a class="button small" href="">View Plan [PDF]</a><a class="button small secondary" href="">Get A Price</a>
+				</p>
+			</div>
+		
+		</article>
+
+		<article class="row plans">
+			<div class="large-5 columns">
+				<img src="http://placehold.it/600x400&text=photo"/>
+			</div>
+		
+			<div class="large-7 columns">
+				<h5>Traditional Modified Half Cape</h5>
+				<p>This traditional Half Cape includes the formal spaces some of our customers can’t live without. We have 3 or 4 bedroom models available and the flexibility to modify floor plans to meet your needs. 
+				</p>
+				
+				<p class="house-buttons"><a class="button small" href="">View Plan [PDF]</a><a class="button small secondary" href="">Get A Price</a>
+				</p>
+			</div>
+		
+		</article>
+
+		<article class="row plans">
+			<div class="large-5 columns">
+				<img src="http://placehold.it/600x400&text=photo"/>
+			</div>
+		
+			<div class="large-7 columns">
+				<h5>Modified Victorian</h5>
+				<p>Bring the family and all the friends here! The exterior of this beautiful 4 Bedroom Modified Victorian home harks back to a bygone era while an open contemporary floor plan brings the interior to today’s lifestyles. 
+				</p>
+				
+				<p class="house-buttons"><a class="button small" href="">View Plan [PDF]</a><a class="button small secondary" href="">Get A Price</a>
+				</p>
+			</div>
+		
+		</article>
+
+
+	</section>
+
+
+
+</div>
+
+
+
+
+
+<div id="footer">
+	<div class="row">
+		<div class="12 columns">
+			<ul>
+			<li>REEF Cape Cod Builders</li>
+			<li>508-394-3090</li>
+			<li>info@capecodbuilder.com</li>
+			</ul>
+		</div>
+	</div>
+	
+
+
+	
+</div>
+
+    <script src='assets/js/vendor/jquery.js'></script>
+    <script src='assets/js/vendor/foundation/foundation.js'></script>
+    <script src='assets/js/vendor/foundation/foundation.alerts.js'></script>
+    <script src='assets/js/vendor/foundation/foundation.clearing.js'></script>
+    <script src='assets/js/vendor/foundation/foundation.cookie.js'></script>
+    <script src='assets/js/vendor/foundation/foundation.dropdown.js'></script>
+    <script src='assets/js/vendor/foundation/foundation.forms.js'></script>
+    <script src='assets/js/vendor/foundation/foundation.joyride.js'></script>
+    <script src='assets/js/vendor/foundation/foundation.magellan.js'></script>
+    <script src='assets/js/vendor/foundation/foundation.orbit.js'></script>
+    <script src='assets/js/vendor/foundation/foundation.placeholder.js'></script>
+    <script src='assets/js/vendor/foundation/foundation.reveal.js'></script>
+    <script src='assets/js/vendor/foundation/foundation.section.js'></script>
+    <script src='assets/js/vendor/foundation/foundation.tooltips.js'></script>
+    <script src='assets/js/vendor/foundation/foundation.topbar.js'></script>
+
+	<script src='assets/js/toggle.js'></script>
+
+	<script src='assets/js/script.js'></script>
+</body>
+</html>
