@@ -21,8 +21,21 @@ $link:#2ba6cb;
 
 @import "_plans";
 
+@import "_blog";
 
 
+.page-title{
+	text-align: center;
+	margin-top: 1.5rem;
+}
+
+.caps{
+	text-transform: capitalize;
+}
+
+.cta{
+	text-align: center;
+}
 
 #hero{
 background:$lt;
@@ -32,6 +45,14 @@ background:$lt;
 
 }
 
+.sidebar{
+
+	section{
+		margin: 1rem 0;
+		color: $md;
+	}
+
+}
 
 #choose-reef{
 	background: $md;

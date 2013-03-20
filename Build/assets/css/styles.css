@@ -3853,16 +3853,36 @@ p.house-buttons a:first-child {
 
 a#filter-toggle {
   text-align: center;
-  padding: .5rem;
-  margin-top: 2rem;
-  background: #eeeeee;
-  border-radius: 10px; }
+  padding: 0.5rem 0;
+  margin-top: 1.5rem;
+  background: #eeeeee; }
 
 input[type=submit] {
   width: 100%; }
 
+#blog-listing .blog-post {
+  border-bottom: 1px solid #eeeeee;
+  padding: 1.5rem 0 1.5rem;
+  margin: 1.5rem; }
+#blog-listing img {
+  margin-bottom: 1rem; }
+
+.page-title {
+  text-align: center;
+  margin-top: 1.5rem; }
+
+.caps {
+  text-transform: capitalize; }
+
+.cta {
+  text-align: center; }
+
 #hero {
   background: #eeeeee; }
+
+.sidebar section {
+  margin: 1rem 0;
+  color: #777777; }
 
 #choose-reef {
   background: #777777;
