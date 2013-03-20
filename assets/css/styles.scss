@@ -7,11 +7,6 @@ $dk:#444;
 $link:#2ba6cb;
 
 
-@mixin container{
-	width: 90%;
-	max-width: 960px;
-	margin: 0 auto;
-}
 
 @import "_nav";
 
@@ -22,6 +17,10 @@ $link:#2ba6cb;
 @import "_plans";
 
 @import "_blog";
+
+@import "_contact";
+
+@import "_choose-reef";
 
 
 .page-title{
@@ -39,9 +38,7 @@ $link:#2ba6cb;
 
 #hero{
 background:$lt;
-
-	.orbit-container{
-	}
+padding-top: 1rem;
 
 }
 
@@ -97,7 +94,7 @@ background:$lt;
 
 
 #home-plans{
-	margin-top: 3rem;
+	margin:1rem auto;
 
 	img{
 		margin-bottom: 1rem;
@@ -109,10 +106,8 @@ background:$lt;
 
 	section{
 		text-align: center;
-		margin: 2em auto;
+		padding: 1rem 0;
 		border-top: 1px solid $lt;
-		padding-top: 2em;
-		width: 90%;
 	}
 }
 
@@ -130,6 +125,19 @@ background:#333;
 	li{
 		padding: .3rem 0;
 	}
+
+	a{
+	color: #fff;
+	background: #666;
+	margin: 0 .75rem;
+	display: inline-block;
+	height: 22px; 
+	width: 22px;
+	border-radius: 5px;
+}
+
+
+
 }
 
 @media only screen and (min-width: 40em) {
@@ -149,28 +157,23 @@ background:#333;
 	}
 }
 
+
 }
 
 
 @media only screen and (min-width: 60em) {
 
 #home-plans{
-	@include container;
-	margin-top: 3rem;
 	
-
 	h2{
 		text-align: center;
 	}
 
 	section{
 		text-align: center;
-		width: 33%;
-		display: inline-block;
-		margin: 2em auto;
+		margin: 1rem auto;
 		border-right: 1px solid $lt;
 		border-top: none;
-		padding: 0 2%;
 	}
 	
 	section:last-child{

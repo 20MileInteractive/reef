@@ -3860,12 +3860,83 @@ a#filter-toggle {
 input[type=submit] {
   width: 100%; }
 
-#blog-listing .blog-post {
-  border-bottom: 1px solid #eeeeee;
-  padding: 1.5rem 0 1.5rem;
-  margin: 1.5rem; }
-#blog-listing img {
-  margin-bottom: 1rem; }
+#blog-listing {
+  margin-top: 2rem; }
+  #blog-listing .blog-post {
+    border-bottom: 1px solid #eeeeee;
+    padding: 1.5rem 0 1.5rem;
+    margin: 1.5rem; }
+  #blog-listing img {
+    margin-bottom: 1rem; }
+  #blog-listing aside.panel {
+    text-align: center; }
+
+div.sidebar.blog {
+  margin-top: 2rem; }
+  div.sidebar.blog input {
+    padding-top: 0.5625em;
+    padding-bottom: 0.625em;
+    font-size: 0.8125em; }
+
+.sidebar .accordion section {
+  margin: 0; }
+
+.section .content ul {
+  list-style-position: inside;
+  list-style-type: none; }
+
+#contact-form legend span {
+  font-style: italic;
+  color: #777777;
+  font-weight: normal;
+  margin-left: 7px; }
+
+div#choose-reef-page .top {
+  background: #eeeeee;
+  padding-bottom: 3rem; }
+  div#choose-reef-page .top img, div#choose-reef-page .top h5 {
+    display: block;
+    margin: 1rem auto;
+    text-align: center; }
+div#choose-reef-page .pull-quote {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #d9d9d9;
+  margin-bottom: 1.25em;
+  padding: 1.25em;
+  background: #f2f2f2;
+  text-align: center; }
+  div#choose-reef-page .pull-quote h1, div#choose-reef-page .pull-quote h2, div#choose-reef-page .pull-quote h3, div#choose-reef-page .pull-quote h4, div#choose-reef-page .pull-quote h5, div#choose-reef-page .pull-quote h6, div#choose-reef-page .pull-quote p {
+    color: #333333; }
+  div#choose-reef-page .pull-quote > :first-child {
+    margin-top: 0; }
+  div#choose-reef-page .pull-quote > :last-child {
+    margin-bottom: 0; }
+  div#choose-reef-page .pull-quote h1, div#choose-reef-page .pull-quote h2, div#choose-reef-page .pull-quote h3, div#choose-reef-page .pull-quote h4, div#choose-reef-page .pull-quote h5, div#choose-reef-page .pull-quote h6 {
+    line-height: 1;
+    margin-bottom: 0.625em; }
+    div#choose-reef-page .pull-quote h1.subheader, div#choose-reef-page .pull-quote h2.subheader, div#choose-reef-page .pull-quote h3.subheader, div#choose-reef-page .pull-quote h4.subheader, div#choose-reef-page .pull-quote h5.subheader, div#choose-reef-page .pull-quote h6.subheader {
+      line-height: 1.4; }
+div#choose-reef-page #left-arrow {
+  display: block; }
+
+#testimonials {
+  margin: 2rem auto 0; }
+
+#team {
+  background: #777777;
+  padding: 1.5rem auto; }
+  #team #bio-photos {
+    margin-top: -25px; }
+    #team #bio-photos img {
+      width: 30%;
+      float: left;
+      margin-right: 2%; }
+  #team #bios {
+    margin-top: 1rem;
+    color: #eeeeee; }
+    #team #bios h5 {
+      color: #fff; }
 
 .page-title {
   text-align: center;
@@ -3878,7 +3949,8 @@ input[type=submit] {
   text-align: center; }
 
 #hero {
-  background: #eeeeee; }
+  background: #eeeeee;
+  padding-top: 1rem; }
 
 .sidebar section {
   margin: 1rem 0;
@@ -3907,17 +3979,15 @@ input[type=submit] {
     text-transform: capitalize; }
 
 #home-plans {
-  margin-top: 3rem; }
+  margin: 1rem auto; }
   #home-plans img {
     margin-bottom: 1rem; }
   #home-plans h2 {
     text-align: center; }
   #home-plans section {
     text-align: center;
-    margin: 2em auto;
-    border-top: 1px solid #eeeeee;
-    padding-top: 2em;
-    width: 90%; }
+    padding: 1rem 0;
+    border-top: 1px solid #eeeeee; }
 
 #footer {
   background: #333; }
@@ -3927,6 +3997,14 @@ input[type=submit] {
     text-align: center; }
   #footer li {
     padding: 0.3rem 0; }
+  #footer a {
+    color: #fff;
+    background: #666;
+    margin: 0 0.75rem;
+    display: inline-block;
+    height: 22px;
+    width: 22px;
+    border-radius: 5px; }
 
 @media only screen and (min-width: 40em) {
   #footer li {
@@ -3937,20 +4015,12 @@ input[type=submit] {
   #footer li:last-child {
     border-right: none; } }
 @media only screen and (min-width: 60em) {
-  #home-plans {
-    width: 90%;
-    max-width: 960px;
-    margin: 0 auto;
-    margin-top: 3rem; }
-    #home-plans h2 {
-      text-align: center; }
-    #home-plans section {
-      text-align: center;
-      width: 33%;
-      display: inline-block;
-      margin: 2em auto;
-      border-right: 1px solid #eeeeee;
-      border-top: none;
-      padding: 0 2%; }
-    #home-plans section:last-child {
-      border-right: none; } }
+  #home-plans h2 {
+    text-align: center; }
+  #home-plans section {
+    text-align: center;
+    margin: 1rem auto;
+    border-right: 1px solid #eeeeee;
+    border-top: none; }
+  #home-plans section:last-child {
+    border-right: none; } }

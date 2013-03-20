@@ -1,0 +1,55 @@
+div#choose-reef-page{
+	
+	.top{
+		background:$lt;
+		padding-bottom: 3rem;
+		
+		img,h5{
+			display: block;
+			margin: 1rem auto;
+			text-align: center;
+		}
+	}
+
+
+	.pull-quote{
+		@include panel;
+		text-align: center;
+
+		
+	}
+	
+	
+	#left-arrow{
+		display: block;
+	}
+
+}
+
+#testimonials{
+		margin: 2rem auto 0;
+}
+
+
+#team{
+	background: $md;
+	padding: 1.5rem auto;
+	
+	#bio-photos{
+		margin-top: -25px;
+		
+		img{
+			width: 30%;
+			float: left;
+			margin-right: 2%;
+		}
+	}
+	
+	#bios{
+		margin-top: 1rem;
+		color: $lt;
+		h5{
+			color: #fff;
+		}
+	}
+}
