@@ -3938,6 +3938,22 @@ div#choose-reef-page #left-arrow {
     #team #bios h5 {
       color: #fff; }
 
+#building-top .sidebar {
+  background: #eeeeee; }
+#building-top span {
+  font-weight: bold; }
+#building-top span:before {
+  content: "\2713";
+  color: #777777;
+  margin-right: 5px; }
+
+.design-build-tabs section {
+  border: 0px; }
+.design-build-tabs div.content p {
+  color: #777777; }
+.design-build-tabs div.content span {
+  color: #000; }
+
 .page-title {
   text-align: center;
   margin-top: 1.5rem; }
@@ -3977,6 +3993,9 @@ div#choose-reef-page #left-arrow {
   #choose-reef #blog-teaser p {
     color: #eeeeee;
     text-transform: capitalize; }
+  #choose-reef #blog-teaser a {
+    color: #eeeeee;
+    border-bottom: 1px dashed #a2a2a2; }
 
 #home-plans {
   margin: 1rem auto; }

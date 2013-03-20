@@ -1,0 +1,34 @@
+#building-top{
+	.sidebar{
+		background: $lt;
+	
+		
+	}
+	
+		span{
+			font-weight: bold;
+		}
+		
+		span:before{
+			content:"\2713";
+			color: $md;
+			margin-right: 5px;
+		}
+	
+}
+
+.design-build-tabs{
+	
+	section{
+		border: 0px;
+	}
+	
+	div.content{
+		p{
+			color: $md;
+		}
+		span{
+			color:#000;
+		}
+	}
+}

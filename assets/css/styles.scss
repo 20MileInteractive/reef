@@ -22,6 +22,8 @@ $link:#2ba6cb;
 
 @import "_choose-reef";
 
+@import "_building";
+
 
 .page-title{
 	text-align: center;
@@ -87,6 +89,11 @@ padding-top: 1rem;
 		p{
 			color: $lt;
 		text-transform: capitalize;			
+		}
+		
+		a{
+			color: $lt;
+			border-bottom: 1px dashed darken($lt, 30%);
 		}
 		
 	}
