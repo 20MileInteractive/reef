@@ -3917,8 +3917,6 @@ div#choose-reef-page .pull-quote {
     margin-bottom: 0.625em; }
     div#choose-reef-page .pull-quote h1.subheader, div#choose-reef-page .pull-quote h2.subheader, div#choose-reef-page .pull-quote h3.subheader, div#choose-reef-page .pull-quote h4.subheader, div#choose-reef-page .pull-quote h5.subheader, div#choose-reef-page .pull-quote h6.subheader {
       line-height: 1.4; }
-div#choose-reef-page #left-arrow {
-  display: block; }
 
 #testimonials {
   margin: 2rem auto 0; }
@@ -3927,9 +3925,9 @@ div#choose-reef-page #left-arrow {
   background: #777777;
   padding: 1.5rem auto; }
   #team #bio-photos {
-    margin-top: -25px; }
+    margin-top: -20px; }
     #team #bio-photos img {
-      width: 30%;
+      width: 22%;
       float: left;
       margin-right: 2%; }
   #team #bios {
@@ -3937,6 +3935,15 @@ div#choose-reef-page #left-arrow {
     color: #eeeeee; }
     #team #bios h5 {
       color: #fff; }
+
+#associations {
+  background: #eeeeee;
+  text-align: center;
+  padding: 1.5rem 0 2rem; }
+  #associations img {
+    width: 25%;
+    max-width: 100px;
+    margin: .5rem; }
 
 #building-top .sidebar {
   background: #eeeeee; }
@@ -4036,6 +4043,11 @@ div#choose-reef-page #left-arrow {
     height: 22px;
     width: 22px;
     border-radius: 5px; }
+  #footer #footer-logos {
+    text-align: center;
+    padding-bottom: 1.5rem; }
+    #footer #footer-logos img {
+      margin: 0.5rem 1rem; }
 
 @media only screen and (min-width: 40em) {
   #footer li {
