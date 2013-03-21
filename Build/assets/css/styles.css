@@ -3942,7 +3942,12 @@ div#choose-reef-page #left-arrow {
   background: #eeeeee; }
 #building-top span {
   font-weight: bold; }
-#building-top span:before {
+#building-top span.image-caption {
+  text-align: center;
+  font-weight: normal;
+  font-style: italic;
+  display: block; }
+#building-top #building-benefits span:before {
   content: "\2713";
   color: #777777;
   margin-right: 5px; }
@@ -3953,6 +3958,13 @@ div#choose-reef-page #left-arrow {
   color: #777777; }
 .design-build-tabs div.content span {
   color: #000; }
+
+#building-process .row {
+  border-bottom: 1px solid #eeeeee;
+  margin-bottom: 1.5rem; }
+#building-process ul {
+  list-style-type: disc;
+  color: #777777; }
 
 .page-title {
   text-align: center;
