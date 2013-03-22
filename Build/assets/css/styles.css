@@ -1153,7 +1153,7 @@ blockquote p {
 @media print {
   * {
     background: transparent !important;
-    color: black !important;
+    color: #000 !important;
     /* Black prints faster: h5bp.com/s */
     box-shadow: none !important;
     text-shadow: none !important; }
@@ -1175,7 +1175,7 @@ blockquote p {
 
   pre,
   blockquote {
-    border: 1px solid #999999;
+    border: 1px solid #999;
     page-break-inside: avoid; }
 
   thead {
@@ -2597,7 +2597,7 @@ form.custom {
       right: 0px;
       width: 11px;
       height: 14px;
-      border: solid 4px black;
+      border: solid 4px #000;
       border-top: none;
       border-bottom: none; }
     .orbit-container .orbit-timer.paused > span {
@@ -2606,7 +2606,7 @@ form.custom {
       width: 11px;
       height: 14px;
       border: solid 8px;
-      border-color: transparent transparent transparent black; }
+      border-color: transparent transparent transparent #000; }
   .orbit-container:hover .orbit-timer > span {
     display: block; }
   .orbit-container .orbit-prev,
@@ -2633,17 +2633,17 @@ form.custom {
   .orbit-container .orbit-prev {
     left: 0; }
     .orbit-container .orbit-prev > span {
-      border-color: transparent white transparent transparent; }
+      border-color: transparent #fff transparent transparent; }
     .orbit-container .orbit-prev:hover > span {
-      border-color: transparent #cccccc transparent transparent; }
+      border-color: transparent #ccc transparent transparent; }
   .orbit-container .orbit-next {
     right: 0; }
     .orbit-container .orbit-next > span {
-      border-color: transparent transparent transparent white;
+      border-color: transparent transparent transparent #fff;
       left: 50%;
       margin-left: -8px; }
     .orbit-container .orbit-next:hover > span {
-      border-color: transparent transparent transparent #cccccc; }
+      border-color: transparent transparent transparent #ccc; }
 
 .orbit-bullets {
   margin: 0 auto 30px auto;
@@ -2657,7 +2657,7 @@ form.custom {
     background: #fff;
     float: left;
     margin-right: 6px;
-    border: solid 2px black;
+    border: solid 2px #000;
     -webkit-border-radius: 1000px;
     border-radius: 1000px; }
     .orbit-bullets li.active {
@@ -2837,9 +2837,9 @@ form.custom {
   text-decoration: none;
   font-size: 30px;
   font-weight: normal;
-  line-height: 0.5 !important; }
+  line-height: .5 !important; }
   .joyride-close-tip:hover, .joyride-close-tip:focus {
-    color: #eeeeee !important; }
+    color: #eee !important; }
 
 .joyride-modal-bg {
   position: fixed;
@@ -3795,8 +3795,8 @@ table {
     margin: 1em 0 1em 0; } }
 @font-face {
   font-family: 'reef';
-  src: url("../fonts/reef.eot");
-  src: url("../fonts/reef.eot?#iefix") format("embedded-opentype"), url("../fonts/reef.woff") format("woff"), url("../fonts/reef.ttf") format("truetype"), url("../fonts/reef.svg#reef") format("svg");
+  src: url(../fonts/reef.eot);
+  src: url(../fonts/reef.eot?#iefix) format("embedded-opentype"), url(../fonts/reef.woff) format("woff"), url(../fonts/reef.ttf) format("truetype"), url(../fonts/reef.svg) format("svg");
   font-weight: normal;
   font-style: normal; }
 
@@ -3853,7 +3853,7 @@ p.house-buttons a:first-child {
 
 a#filter-toggle {
   text-align: center;
-  padding: 0.5rem 0;
+  padding: .5rem 0;
   margin-top: 1.5rem;
   background: #eeeeee; }
 
@@ -4034,11 +4034,11 @@ div#choose-reef-page .pull-quote {
     color: #eeeeee;
     text-align: center; }
   #footer li {
-    padding: 0.3rem 0; }
+    padding: .3rem 0; }
   #footer a {
     color: #fff;
     background: #666;
-    margin: 0 0.75rem;
+    margin: 0 .75rem;
     display: inline-block;
     height: 22px;
     width: 22px;
@@ -4047,13 +4047,13 @@ div#choose-reef-page .pull-quote {
     text-align: center;
     padding-bottom: 1.5rem; }
     #footer #footer-logos img {
-      margin: 0.5rem 1rem; }
+      margin: .5rem 1rem; }
 
 @media only screen and (min-width: 40em) {
   #footer li {
     display: inline-block;
-    padding: 0 0.5rem;
-    margin: 1rem 0.5rem;
+    padding: 0 .5rem;
+    margin: 1rem .5rem;
     border-right: 1px solid #777777; }
   #footer li:last-child {
     border-right: none; } }
