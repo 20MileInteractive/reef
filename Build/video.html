@@ -22,7 +22,7 @@
                     for (var i = 0; i < links.length;i++) { 
                     var link = links[i]; 
                     if (link.rel === 'stylesheet' && !link.href.match(/typekit/)) { 
-                      href = link.href.replace(/((&|\?)hammer=)[^\&]+/,''); 
+                      href = link.href.replace(/((&|\?)hammer=)[^&]+/,''); 
                       link.href = href + (href.indexOf('?')>=0?'&':'?') + 'hammer='+(new Date().valueOf());
                     }
                   }
@@ -37,7 +37,7 @@
   <link rel='stylesheet' href='assets/css/styles.css'>
 
   <script src='assets/js/vendor/custom.modernizr.js'></script>
-
+  <script type="text/javascript" src="http://typecast.com/project_css/PzngqYdJy8/66062bf4a6b37.js"></script>
 </head>
 <body>
 
