@@ -1,0 +1,394 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<!--[if lt IE 7]><html class="lt-ie9 lt-ie8 lt-ie7" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"><![endif]-->
+<!--[if IE 7]><html class="lt-ie9 lt-ie8" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"><![endif]-->
+<!--[if IE 8]><html class="lt-ie9" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"><![endif]-->
+<!--[if gt IE 8]><!--><html xmlns="http://www.w3.org/1999/xhtml"><!--<![endif]-->
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Reef | Cape Cod Builders</title>
+
+  
+        <!-- Hammer reload -->
+          <script>
+            setInterval(function(){
+              try {
+                if(typeof ws != 'undefined' && ws.readyState == 1){return true;}
+                ws = new WebSocket('ws://'+(location.host || 'localhost').split(':')[0]+':35353')
+                ws.onopen = function(){ws.onclose = function(){document.location.reload()}}
+                ws.onmessage = function(){
+                  var links = document.getElementsByTagName('link'); 
+                    for (var i = 0; i < links.length;i++) { 
+                    var link = links[i]; 
+                    if (link.rel === 'stylesheet' && !link.href.match(/typekit/)) { 
+                      href = link.href.replace(/((&|\?)hammer=)[^&]+/,''); 
+                      link.href = href + (href.indexOf('?')>=0?'&':'?') + 'hammer='+(new Date().valueOf());
+                    }
+                  }
+                }
+              }catch(e){}
+            }, 1000)
+          </script>
+        <!-- /Hammer reload -->
+      
+
+  <link rel='stylesheet' href='assets/css/normalize.css'>
+  <link rel='stylesheet' href='assets/css/styles.css'>
+  <link rel='stylesheet' href='assets/css/ie.css'>
+
+  <script src='assets/js/vendor/custom.modernizr.js'></script>
+
+
+
+
+</head>
+<body>
+<div id="masthead">
+	<a href="index.html"><img id="logo" src="http://placehold.it/200x100&text=REEF+LOGO"/></a>
+   <form id="header-form">
+   	<input type="text">
+    <a href="#" class="small secondary button">Search</a>
+   </form>
+</div>
+
+<div id="navigation" class="contain-to-grid">
+
+	<nav class="top-bar">
+		<ul class="title-area">
+	    <!-- Title Area -->
+	    <li class="name">
+	    </li>
+	
+	    <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+	    <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+	  </ul>
+	 
+	  <section class="top-bar-section">
+		  <ul class="left">
+		    
+		    <li class='current'><a class='current' href="home-plans.html">Home Plans &amp; Features</a></li>
+		    <li><a href="portfolio.html">Portfolio</a></li>
+		    <li><a href="why-choose-reef.html">Why Choose Reef?</a></li>
+		    <li><a href="building-a-home.html">Building a Cape Cod Home</a></li>
+		    <li><a href="blog.html">Design &amp; Building Blog</a></li>
+		    <li><a href="contact.html">Contact Us</a></li>
+<li class="has-form">
+        <form id="nav-form">
+          <div class="row collapse">
+            <div class="small-8 columns">
+              <input class="small" type="text">
+            </div>
+            <div class="small-4 columns">
+              <a href="#" class="secondary button">Search</a>
+            </div>
+          </div>
+        </form>
+      </li>
+		  </ul>
+		  
+	  </section>
+	</nav>
+</div>
+
+
+<div class="row">
+	<div class="large-12 columns page-title">	
+		<h2>Home Plans &amp; Features</h2>
+	</div>
+</div>
+
+<div class="row">
+
+	<aside class="large-12 columns">	
+	<a id="filter-toggle" class="show-for-small" href="#">See Filter Options</a>	
+		<form id="filters" class="custom hide-for-small">
+		  <fieldset>
+		    <legend><a name="filters">Filters</a></legend>
+		    		<div class="row">
+							<div class="large-3 columns">
+								<label for="customDropdown">Price Range</label>
+								  <select id="customDropdown">
+								    <option>No Preference</option>
+								    <option>Under $300K</option>
+								    <option>$300K - $500K</option>
+								    <option>Over $500K</option>
+								  </select>		    
+							</div>
+							<div class="large-3 columns">							
+								<label for="customDropdown">Bedrooms</label>
+							  <select id="customDropdown">
+							    <option>No Preference</option>
+							    <option>2</option>
+							    <option>3</option>
+							    <option>4+</option>
+							  </select>		    
+							</div>
+							<div class="large-3 columns">							
+								<label for="customDropdown">Bathrooms</label>
+							  <select id="customDropdown">
+							    <option>No Preference</option>
+							    <option>1 &#189;</option>
+							    <option>2</option>
+							    <option>3</option>						    
+							  </select>	
+							</div>
+							<div class="large-3 columns">	
+								<label for="customDropdown">&nbsp;</label>
+													
+				    	<input type="submit" class=" small button" value="Apply Filters"/>
+							</div>
+		    		</div>
+		    		    
+		  </fieldset>
+		</form>
+	</aside>
+	
+</div>
+<div class="row">
+	
+	<section class="large-9 columns">		
+
+		<article class="row plans">
+			<div class="small-10 small-centered large-12 columns">
+				<div class="row">
+					<div class="large-5 columns">
+						<a href="home-detail.html"><img src="http://placehold.it/600x400&text=photo"/></a>
+					</div>
+				
+					<div class="large-7 columns">
+						<h5>Spacious Saltbox</h5>
+						<p>This delightful Saltbox is one of the most efficient designs we build and the “Best Bang for the Buck!”
+						</p>
+						
+						<p class="house-buttons"><a class="button small" href="home-detail.html">View Plan</a><a href="#" class="button small secondary" data-reveal-id="quote-form">Get A Price</a>
+						</p>
+					</div>
+				</div>
+			</div>
+		</article>
+
+
+		<article class="row plans">
+			<div class="small-10 small-centered large-12 columns">
+				<div class="row">
+					<div class="large-5 columns">
+						<a href="home-detail.html"><img src="http://placehold.it/600x400&text=photo"/></a>
+					</div>
+				
+					<div class="large-7 columns">
+						<h5>Half Cape Ranch</h5>
+						<p>But it doesn’t look like a Ranch! Living doesn’t have to lack style and beauty. We call this a Half Cape Ranch because of its authentic look.
+						</p>
+						
+						<p class="house-buttons"><a class="button small" href="home-detail.html">View Plan</a><a href="#" class="button small secondary" data-reveal-id="quote-form">Get A Price</a>
+						</p>
+					</div>
+				</div>
+			</div>
+		</article>
+
+
+		<article class="row plans">
+			<div class="small-10 small-centered large-12 columns">
+				<div class="row">
+					<div class="large-5 columns">
+						<a href="home-detail.html"><img src="http://placehold.it/600x400&text=photo"/></a>
+					</div>
+				
+					<div class="large-7 columns">
+						<h5>Traditional Cape</h5>
+						<p>But it doesn’t look like a Ranch! Living doesn’t have to lack style and beauty. We call this a Half Cape Ranch because of its authentic look.
+						</p>
+						
+						<p class="house-buttons"><a class="button small" href="home-detail.html">View Plan</a><a href="#" class="button small secondary" data-reveal-id="quote-form">Get A Price</a>
+						</p>
+					</div>
+				</div>
+			</div>
+		</article>
+
+
+		<article class="row plans">
+			<div class="small-10 small-centered large-12 columns">
+				<div class="row">
+					<div class="large-5 columns">
+						<a href="home-detail.html"><img src="http://placehold.it/600x400&text=photo"/></a>
+					</div>
+				
+					<div class="large-7 columns">
+						<h5>Greek Revival</h5>
+						<p>But it doesn’t look like a Ranch! Living doesn’t have to lack style and beauty. We call this a Half Cape Ranch because of its authentic look.
+						</p>
+						
+						<p class="house-buttons"><a class="button small" href="home-detail.html">View Plan</a><a href="#" class="button small secondary" data-reveal-id="quote-form">Get A Price</a>
+						</p>
+					</div>
+				</div>
+			</div>
+		</article>
+
+		<article class="row plans">
+			<div class="small-10 small-centered large-12 columns">
+				<div class="row">
+					<div class="large-5 columns">
+						<a href="home-detail.html"><img src="http://placehold.it/600x400&text=photo"/></a>
+					</div>
+				
+					<div class="large-7 columns">
+						<h5>Traditional Modified Half Cape</h5>
+						<p>But it doesn’t look like a Ranch! Living doesn’t have to lack style and beauty. We call this a Half Cape Ranch because of its authentic look.
+						</p>
+						
+						<p class="house-buttons"><a class="button small" href="home-detail.html">View Plan</a><a href="#" class="button small secondary" data-reveal-id="quote-form">Get A Price</a>
+						</p>
+					</div>
+				</div>
+			</div>
+		</article>
+
+		<article class="row plans">
+			<div class="small-10 small-centered large-12 columns">
+				<div class="row">
+					<div class="large-5 columns">
+						<a href="home-detail.html"><img src="http://placehold.it/600x400&text=photo"/></a>
+					</div>
+				
+					<div class="large-7 columns">
+						<h5>Modified Victorian</h5>
+						<p>But it doesn’t look like a Ranch! Living doesn’t have to lack style and beauty. We call this a Half Cape Ranch because of its authentic look.
+						</p>
+						
+						<p class="house-buttons"><a class="button small" href="home-detail.html">View Plan</a><a href="#" class="button small secondary" data-reveal-id="quote-form">Get A Price</a>
+						</p>
+					</div>
+				</div>
+			</div>
+		</article>
+
+
+	</section>
+
+	<aside class="large-3 columns sidebar">
+		<section class="panel cta">
+			<a href="">Get Our Free <b>Construction Cost Guide</b></a>
+		</section>
+		<br/>
+		<section>
+			<h5>Need an extra bedroom? No problem.</h5>
+			<p>All our homes are custom built. These plans are simply starting points. We'll work with you to customize your home to suit your needs and make sure it's exactly what you want.
+				
+			</p>
+		</section>
+
+		<br/>
+		<section>
+			<h5>Related Blog Posts</h5>
+			<p><a class="caps" href="">how to plan your dream home</a>				
+			</p>
+			<p><a class="caps" href="">lorem ipsum dolor sit amet, consectetur adipiscing elit</a>				
+			</p>			
+		</section>
+
+	</aside>
+
+</div>
+
+
+
+
+
+<div id="footer">
+	<div class="row">
+		<div class="large-12 columns">
+			<ul>
+			<li>REEF Cape Cod Builders</li>
+			<li>508-394-3090</li>
+			<li>info@capecodbuilder.com</li>
+			<li><a href="">F</a><a href="">T</a><a href="">P</a><a href="">L</a></li>
+
+			</ul>
+		</div>
+	</div>
+	
+	
+	<div id="footer-logos" class="row">
+		<div class="small-10 columns small-centered">
+				<img  src="http://placehold.it/150x50&text=BBB"/>		
+				<img  src="http://placehold.it/150x50&text=Green"/>		
+
+	</div>
+
+</div>
+<div id="quote-form" class="reveal-modal large">
+  <h2>Get A Price</h2>
+  <p class="lead"><b>Plan Name Goes here</b></p>
+  <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Maecenas faucibus mollis interdum at <b>508-346-4059.</b></p>
+  <div id="contact-form" class="row">
+	<div class="large-12 columns">
+	<form>
+  <fieldset>
+    <legend>Label</legend>
+
+    <div class="row">
+      <div class="large-12 columns">
+        <label>Name</label>
+        <input type="text">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="large-12 columns">
+        <label>Phone</label>
+        <input type="tel">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="large-12 columns">
+        <label>Email</label>
+        <input type="text">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="large-12 columns">
+        <label>Message</label>
+        <textarea></textarea>
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="large-12 columns">
+        <input type="submit" class="button expand" value="Send">
+      </div>
+    </div>
+    
+
+  </fieldset>
+</form>
+	</div>
+</div>
+  <a class="close-reveal-modal">&#215;</a>
+</div>
+    <script src='assets/js/vendor/jquery.js'></script>
+    <script src='assets/js/vendor/foundation/foundation.js'></script>
+    <script src='assets/js/vendor/foundation/foundation.alerts.js'></script>
+    <script src='assets/js/vendor/foundation/foundation.clearing.js'></script>
+    <script src='assets/js/vendor/foundation/foundation.cookie.js'></script>
+    <script src='assets/js/vendor/foundation/foundation.dropdown.js'></script>
+    <script src='assets/js/vendor/foundation/foundation.forms.js'></script>
+    <script src='assets/js/vendor/foundation/foundation.joyride.js'></script>
+    <script src='assets/js/vendor/foundation/foundation.magellan.js'></script>
+    <script src='assets/js/vendor/foundation/foundation.orbit.js'></script>
+    <script src='assets/js/vendor/foundation/foundation.placeholder.js'></script>
+    <script src='assets/js/vendor/foundation/foundation.reveal.js'></script>
+    <script src='assets/js/vendor/foundation/foundation.section.js'></script>
+    <script src='assets/js/vendor/foundation/foundation.tooltips.js'></script>
+    <script src='assets/js/vendor/foundation/foundation.topbar.js'></script>
+
+	<script src='assets/js/toggle.js'></script>
+
+	<script src='assets/js/script.js'></script>
+</body>
+</html>

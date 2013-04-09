@@ -1,0 +1,51 @@
+@font-face {
+	font-family: 'reef';
+	src:url('../fonts/reef.eot');
+	src:url('../fonts/reef.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/reef.woff') format('woff'),
+		url('../fonts/reef.ttf') format('truetype'),
+		url('../fonts/reef.svg#reef') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'reef';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="icon-"]:before {
+*/
+.icon-play:before, .icon-pinterest:before, .icon-twitter:before, .icon-facebook:before {
+	font-family: 'reef';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+.icon-play:before {
+	content: "\76";
+}
+.icon-pinterest:before {
+	content: "\70";
+}
+.icon-twitter:before {
+	content: "\74";
+}
+.icon-facebook:before {
+	content: "\66";
+}
