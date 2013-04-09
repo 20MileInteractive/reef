@@ -1,0 +1,50 @@
+#blog-listing{
+
+	margin-top: 2rem;
+	
+	.blog-post{
+		border-bottom: 1px solid $lt;
+		padding: 1.5rem 0 1.5rem;
+		margin: 1.5rem;
+	}
+	
+	img{
+		margin-bottom: 1rem;
+	}
+	
+	aside.panel{
+		text-align: center;
+	}
+	
+	
+}
+
+
+div.sidebar.blog{
+	margin-top: 2rem;
+	
+		input{
+			padding-top: 0.5625em;
+			padding-bottom: 0.625em;
+			font-size: 0.8125em;
+
+	}
+
+}
+
+.sidebar .accordion{
+	section{
+		margin:0;
+	}
+}
+
+
+.section .content{
+	
+	ul{
+		list-style-position: inside;
+		list-style-type: none;
+	}
+	
+	
+}

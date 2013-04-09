@@ -1,4 +1,4 @@
-reef
-====
+project-starter-template
+========================
 
-Reef Builders
+Template for web projects with Hammer and Foundation4

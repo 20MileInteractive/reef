@@ -1,0 +1,56 @@
+#building-top{
+	.sidebar{
+		background: $lt;
+	
+		
+	}
+	
+		span{
+			font-weight: bold;
+		}
+		
+		span.image-caption{
+			text-align: center;
+			font-weight: normal;
+			font-style: italic;
+			display: block;
+		}
+		
+		#building-benefits{
+					span:before{
+			content:"\2713";
+			color: $md;
+			margin-right: 5px;
+		}
+
+		}
+}
+
+.design-build-tabs{
+	
+	section{
+		border: 0px;
+	}
+	
+	div.content{
+		p{
+			color: $md;
+		}
+		span{
+			color:#000;
+		}
+	}
+}
+
+
+#building-process{
+	.row{
+		border-bottom: 1px solid $lt;
+		margin-bottom: 1.5rem;
+	}
+	
+	ul{
+		list-style-type:disc;
+		color: $md;
+	}
+}
