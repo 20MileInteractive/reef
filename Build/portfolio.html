@@ -38,18 +38,14 @@
   <link rel='stylesheet' href='assets/css/ie.css'>
 
   <script src='assets/js/vendor/custom.modernizr.js'></script>
-<<<<<<< HEAD
-  <script type="text/javascript" src="http://typecast.com/project_css/PzngqYdJy8/66062bf4a6b37.js"></script>
-=======
 
 
 
 
->>>>>>> refs/heads/dev
 </head>
 <body>
 <div id="masthead">
-	<a class='current' href="index.html"><img id="logo" src="http://placehold.it/200x100&text=REEF+LOGO"/></a>
+	<a href="index.html"><img id="logo" src="http://placehold.it/200x100&text=REEF+LOGO"/></a>
    <form id="header-form">
    	<input type="text">
     <a href="#" class="small secondary button">Search</a>
@@ -72,7 +68,7 @@
 		  <ul class="left">
 		    
 		    <li><a href="home-plans.html">Home Plans &amp; Features</a></li>
-		    <li><a href="portfolio.html">Portfolio</a></li>
+		    <li class='current'><a class='current' href="portfolio.html">Portfolio</a></li>
 		    <li><a href="why-choose-reef.html">Why Choose Reef?</a></li>
 		    <li><a href="building-a-home.html">Building a Cape Cod Home</a></li>
 		    <li><a href="blog.html">Design &amp; Building Blog</a></li>
@@ -95,70 +91,54 @@
 	</nav>
 </div>
 
-<div id="hero">
+<div id="portfolio-page">
 	<div class="row">
-		<div  class="small-12 large-8 large-centered columns">
-				<img src="assets/images/video.png" />
-		</div><!-- end hero -->
+	<div class="small-12">
+            <div class="section-container tabs" data-section data-options="deep_linking: true;">
+              <section class="section">
+                <p class="title"><a href="#panel1">Section 1</a></p>
+                <div class="content" data-slug="panel1">
+                  <p>Section 1. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+              </section>
+              <section class="section">
+                <p class="title"><a href="#panel2">Section 2</a></p>
+                <div class="content" data-slug="panel2">
+                  <p>Section 2. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+              </section>
+              <div class="section">
+                <p class="title"><a href="#panel3">Section 3</a></p>
+                <div class="content" data-slug="panel3">
+                  <form>
+                    <div class="row collapse">
+                      <div class="large-2 columns">
+                        <label class="inline">Your Name</label>
+                      </div>
+                      <div class="large-10 columns">
+                        <input type="text" id="yourName" placeholder="Jane Smith">
+                      </div>
+                    </div>
+                    <div class="row collapse">
+                      <div class="large-2 columns">
+                        <label class="inline"> Your Email</label>
+                      </div>
+                      <div class="large-10 columns">
+                        <input type="text" id="yourEmail" placeholder="jane@smithco.com">
+                      </div>
+                    </div>
+                    <label>What's up?</label>
+                    <textarea rows="4"></textarea>
+                    <button type="submit" class="radius button">Submit</button>
+                  </form>
+                </div>
+              </div>
+            </div>
 	</div>
-</div>
-
-<div id="home-plans">
-<h2>Catchy Title Goes Here</h2>
-<div class="row">
-	<section class="large-4 columns">
-			<img src="http://placehold.it/250x150&text=Photo" />
-			<h3>See Our Work</h3>
-			<p>Affordable home plans include all permits, painting, landscaping and more. </p>
-			<a class="small button" href="home-plans.html">Visit Portfolio</a> 
-	</section>
-	
-	<section class="large-4 columns">
-			<img src="http://placehold.it/250x150&text=Photo" />
-			<h3>Custom Home Features</h3>
-			<p>Mid-range home plans include all permits, painting, landscaping and more. </p>
-			<a class="small button" href="home-plans.html">Call To Action</a> 
-	</section>
-	
-	
-	<section class="large-4 columns">
-			<img src="http://placehold.it/250x150&text=Photo" />
-			<h3>Control Your Costs</h3>
-			<p>Fully Custom home plans include all permits, painting, landscaping and more. </p>
-			<a class="small button" href="home-plans.html">Call To Action</a> 
-	</section>
-</div>
-
-
-</div><!-- end home plans -->
-
-
-<div id="choose-reef">
-	<div class="row">
-		<div id="team" class="large-8 columns">
-		<h3>Why Choose Reef?</h3>
-		<img src="http://placehold.it/150x110&text=Headshots" />
-		<p>The team at REEF has over 35 years building experience. We've helped hundreds of people build their Cape Cod Dream home.<br/>
-		<a href="why-choose-reef.html#team" class="button">Meet Us</a> 
-		</p>
-		</div>
-		<div id="blog-teaser" class="large-3 push-1 columns">
-			<h5>Latest Building Articles</h5>
-
-			<article>
-				<p><a href="">Pick The Best Kitchen Design For Your Cape Cod Home</a>
-				</p>
-			</article>
-
-			<article>
-				<p><a href="">Singing in the shower? Add some music to your remodeling project</a>
-				</p>
-			</article>
-
-
-		</div>
 	</div>
-</div><!-- end choose reef -->
+
+</div><!-- end portfolio page -->
+
 
 
 <div id="footer">
