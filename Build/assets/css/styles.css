@@ -3899,7 +3899,7 @@ footer p {
 @font-face {
   font-family: 'reef';
   src: url(../fonts/reef.eot);
-  src: url(../fonts/reef.eot?#iefix) format("embedded-opentype"), url(../fonts/reef.woff) format("woff"), url(../fonts/reef.ttf) format("truetype"), url(../fonts/reef.svg) format("svg");
+  src: url(../fonts/reef.eot?#iefix) format("embedded-opentype"), url(../fonts/reef.woff) format("woff"), url(../fonts/reef.ttf) format("truetype"), url(../fonts/reef.svg#reef) format("svg");
   font-weight: normal;
   font-style: normal; }
 
@@ -4089,11 +4089,22 @@ div#choose-reef-page .pull-quote {
 #hero {
   position: absolute;
   top: 0;
-  background: url(../images/home-img.jpg) no-repeat center top;
+  background: url(../images/home-img.jpg) no-repeat center -150px;
   width: 100%;
-  height: 650px;
+  height: 500px;
   padding: 177px 0 0 0;
-  z-index: 1; }
+  z-index: 1;
+  font-family: AvenirNext-Medium;
+  font-size: 30px;
+  color: #FFFFFF;
+  line-height: 41px;
+  letter-spacing: 1px;
+  text-align: center; }
+  #hero p {
+    background: url(../images/blueprint.png) no-repeat center bottom;
+    padding: 0 0 129px 0; }
+  #hero span {
+    color: #D8D8D8; }
 
 #masthead {
   height: 110px;
@@ -4110,10 +4121,51 @@ div#choose-reef-page .pull-quote {
       background: url(../images/reef-logo.png); }
     #masthead h1 span {
       display: none; }
+  #masthead h3 {
+    font-size: 18px;
+    color: #52504B;
+    line-height: 25px;
+    float: left;
+    margin: 24px 0 0 533px; }
+
+#header-form {
+  width: auto; }
+  #header-form input {
+    width: 99px;
+    background: url(../images/search-bg.png);
+    border: none;
+    margin: 22px 0 0 0;
+    line-height: 21px;
+    font-family: AvenirNext-Medium;
+    font-size: 12px;
+    color: #FFFFFF;
+    text-transform: uppercase; }
+    #header-form input placeholder {
+      color: #FFFFFF; }
+    #header-form input -webkit-input-placeholder {
+      color: #FFFFFF; }
+    #header-form input -moz-placeholder {
+      color: #FFFFFF; }
+    #header-form input -ms-input-placeholder {
+      color: #FFFFFF; }
+
+.top-bar {
+  background: none transparent; }
+  .top-bar ul, .top-bar .has-form {
+    background: none transparent; }
+  .top-bar a {
+    background: none transparent !important;
+    font-family: AvenirNext-Regular;
+    font-size: 13px;
+    color: #3B3A36 !important;
+    line-height: 18px;
+    text-transform: uppercase;
+    font-weight: normal !important; }
 
 #navigation {
   position: relative;
-  z-index: 200; }
+  z-index: 200;
+  background: url(../images/nav-bg.png); }
 
 .sidebar section {
   margin: 1rem 0;
@@ -4145,7 +4197,7 @@ div#choose-reef-page .pull-quote {
     border-bottom: 1px dashed #a2a2a2; }
 
 #home-plans {
-  margin: 360px auto 0 auto; }
+  margin: 350px auto 0 auto; }
   #home-plans img {
     margin-bottom: 1rem; }
   #home-plans h2 {
