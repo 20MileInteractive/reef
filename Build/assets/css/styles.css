@@ -4075,6 +4075,9 @@ div#choose-reef-page .pull-quote {
   list-style-type: disc;
   color: #777777; }
 
+#portfolio-page img.large-4 {
+  margin-bottom: 1rem; }
+
 body {
   background: url(../images/main-bg.png); }
 
