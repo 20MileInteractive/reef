@@ -4076,6 +4076,9 @@ div#choose-reef-page .pull-quote {
   list-style-type: disc;
   color: #777777; }
 
+body {
+  background: url(../images/main-bg.png); }
+
 .page-title {
   text-align: center;
   margin-top: 1.5rem; }
@@ -4089,9 +4092,9 @@ div#choose-reef-page .pull-quote {
 #hero {
   position: absolute;
   top: 0;
-  background: url(../images/home-img.jpg) no-repeat center -150px;
+  background: url(../images/home-img.jpg) no-repeat center -165px;
   width: 100%;
-  height: 500px;
+  height: 485px;
   padding: 177px 0 0 0;
   z-index: 1;
   font-family: AvenirNext-Medium;
@@ -4197,15 +4200,76 @@ div#choose-reef-page .pull-quote {
     border-bottom: 1px dashed #a2a2a2; }
 
 #home-plans {
-  margin: 350px auto 0 auto; }
+  margin: 335px auto 0 auto; }
+  #home-plans .row {
+    margin: 15px auto 35px auto; }
   #home-plans img {
-    margin-bottom: 1rem; }
+    display: block;
+    width: 100%; }
   #home-plans h2 {
-    text-align: center; }
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #52504B;
+    line-height: 25px;
+    letter-spacing: 3px;
+    font-weight: normal;
+    padding: 42px 0 0 0;
+    margin: 0; }
   #home-plans section {
     text-align: center;
-    padding: 1rem 0;
-    border-top: 1px solid #eeeeee; }
+    position: relative;
+    margin-left: 0.9375em;
+    margin-right: 0.9375em;
+    padding: 0;
+    width: 300px;
+    cursor: pointer; }
+    #home-plans section h3 {
+      margin: 0;
+      height: 48px;
+      line-height: 48px;
+      text-transform: uppercase;
+      font-size: 14px; }
+    #home-plans section .details {
+      position: absolute;
+      bottom: 48px;
+      font-family: GaramondPremrPro;
+      font-size: 16px;
+      line-height: 21px;
+      padding: 0 10px;
+      width: 100%;
+      max-height: 0;
+      overflow: hidden;
+      -moz-transition: max-height 1s ease;
+      -webkit-transition: max-height 1s ease;
+      -o-transition: max-height 1s ease;
+      transition: max-height 1s ease; }
+    #home-plans section h4 {
+      font-size: 14px;
+      line-height: 19px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      padding-top: 10px; }
+    #home-plans section:hover .details {
+      max-height: 239px; }
+  #home-plans #our_work h3 {
+    background: #C6D7DD;
+    color: #627277; }
+  #home-plans #our_work .details, #home-plans #our_work a {
+    background: #86aab7;
+    color: #627277; }
+  #home-plans #features h3 {
+    background: #506630;
+    color: #D3E5B8; }
+  #home-plans #features .details, #home-plans #features a {
+    background: #7C9A4F;
+    color: #D3E5B8; }
+  #home-plans #costs h3 {
+    background: #5F5C52;
+    color: #B7B19F; }
+  #home-plans #costs .details, #home-plans #costs a {
+    background: #b3b1a7;
+    color: #5F5C52; }
 
 #footer {
   background: #333; }
@@ -4241,9 +4305,4 @@ div#choose-reef-page .pull-quote {
   #home-plans h2 {
     text-align: center; }
   #home-plans section {
-    text-align: center;
-    margin: 1rem auto;
-    border-right: 1px solid #eeeeee;
-    border-top: none; }
-  #home-plans section:last-child {
-    border-right: none; } }
+    text-align: center; } }

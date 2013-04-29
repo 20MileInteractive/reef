@@ -36,6 +36,9 @@ $link:#2ba6cb;
 
 @import "_building";
 
+body {
+	background: url(../images/main-bg.png);
+}
 .page-title{
 	text-align: center;
 	margin-top: 1.5rem;
@@ -52,9 +55,9 @@ $link:#2ba6cb;
 #hero{
 	position: absolute;
 	top: 0;
-	background: url(../images/home-img.jpg) no-repeat center -150px;
+	background: url(../images/home-img.jpg) no-repeat center -165px;
 	width: 100%;
-	height: 500px;
+	height: 485px;
 	padding: 177px 0 0 0;
 	z-index: 1;
 	font-family: AvenirNext-Medium;
@@ -202,20 +205,100 @@ $link:#2ba6cb;
 
 
 #home-plans{
-	margin:350px auto 0 auto;
-
-	img{
-		margin-bottom: 1rem;
+	margin:335px auto 0 auto;
+	.row {
+		margin: 15px auto 35px auto;
+	}
+	img {
+		display: block;
+		width: 100%;
 	}
 
 	h2{
 		text-align: center;
+		text-transform: uppercase;
+		font-size: 18px;
+		color: #52504B;
+		line-height: 25px;
+		letter-spacing: 3px;
+		font-weight: normal;
+		padding: 42px 0 0 0;
+		margin: 0;
 	}
 
 	section{
 		text-align: center;
-		padding: 1rem 0;
-		border-top: 1px solid $lt;
+		position: relative;
+		margin-left: 0.9375em;
+		margin-right: 0.9375em;
+		padding: 0;
+		width: 300px;
+		cursor: pointer;
+		
+		h3 {
+			margin: 0;
+			height: 48px;
+			line-height: 48px;
+			text-transform: uppercase;
+			font-size: 14px;
+		}
+		.details {
+			position: absolute;
+			bottom: 48px;
+			font-family: GaramondPremrPro;
+			font-size: 16px;
+			line-height: 21px;
+			padding: 0 10px;
+			width: 100%;
+			max-height: 0;
+			overflow: hidden;
+			-moz-transition: max-height 1s ease;
+			-webkit-transition: max-height 1s ease;
+			-o-transition: max-height 1s ease;
+			transition: max-height 1s ease;
+		}
+		h4 {
+			font-size: 14px;
+			line-height: 19px;
+			letter-spacing: 1px;
+			text-transform: uppercase;
+			padding-top: 10px;
+		}
+		&:hover {
+			.details {
+				max-height: 239px;
+			}
+		}
+	}
+	#our_work {
+		h3 {
+			background: #C6D7DD;
+			color: #627277;
+		}
+		.details, a {
+			background: #86aab7;
+			color: #627277;
+		}
+	}
+	#features {
+		h3 {
+			background: #506630;
+			color: #D3E5B8;
+		}
+		.details, a {
+			background: #7C9A4F;
+			color: #D3E5B8;
+		}
+	}
+	#costs {
+		h3 {
+			background: #5F5C52;
+			color: #B7B19F;
+		}
+		.details, a {
+			background: #b3b1a7;
+			color: #5F5C52;
+		}
 	}
 }
 
@@ -286,13 +369,6 @@ background:#333;
 
 	section{
 		text-align: center;
-		margin: 1rem auto;
-		border-right: 1px solid $lt;
-		border-top: none;
-	}
-	
-	section:last-child{
-		border-right: none;
 	}
 }
 
