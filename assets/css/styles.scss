@@ -86,7 +86,6 @@ placeholder {
 	height: 485px;
 	padding: 177px 0 0 0;
 	z-index: 1;
-	font-family: AvenirNext-Medium;
 	font-size: 30px;
 	color: #FFFFFF;
 	line-height: 41px;
@@ -94,6 +93,7 @@ placeholder {
 	text-align: center;
 	overflow: hidden;
 	p {
+		font-family: AvenirNext-Medium;
 		background: url(../images/blueprint.png) no-repeat center bottom;
 		padding: 0 0 129px 0;
 	}
@@ -396,6 +396,9 @@ background:#333;
 
 }
 
+fieldset legend {
+	background: none transparent !important;
+}
 @media only screen and (min-width: 40em) {
 
 
