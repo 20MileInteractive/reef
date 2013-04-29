@@ -20,20 +20,6 @@
 
 
 @media only screen and (min-width: 40em) {
-
-}
-
-
-
-@media only screen and (min-width: 60em) {
-	
-	#nav-form{
-		display: none;
-		}
-
-	#masthead{
-		position: relative;
-	}
 	
 	#header-form{
 		display: inherit;
@@ -54,6 +40,20 @@
 			width: 25%;
 		}
 		
+	}
+
+}
+
+
+
+@media only screen and (min-width: 60em) {
+	
+	#nav-form{
+		display: none;
+		}
+
+	#masthead{
+		position: relative;
 	}
 	
 	#logo{

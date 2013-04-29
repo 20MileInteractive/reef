@@ -3872,13 +3872,7 @@ footer p {
   display: block;
   margin: 1em auto; }
 
-@media only screen and (min-width: 60em) {
-  #nav-form {
-    display: none; }
-
-  #masthead {
-    position: relative; }
-
+@media only screen and (min-width: 40em) {
   #header-form {
     display: inherit;
     width: 300px;
@@ -3892,7 +3886,13 @@ footer p {
       padding-bottom: 0.625em;
       font-size: 0.8125em; }
     #header-form .button {
-      width: 25%; }
+      width: 25%; } }
+@media only screen and (min-width: 60em) {
+  #nav-form {
+    display: none; }
+
+  #masthead {
+    position: relative; }
 
   #logo {
     margin: 1em 0 1em 0; } }
@@ -4145,8 +4145,8 @@ body {
     font-size: 18px;
     color: #52504B;
     line-height: 25px;
-    float: left;
-    margin: 24px 0 0 533px; }
+    float: right;
+    margin: 24px 0 0 0; }
 
 #header-form {
   width: auto; }
@@ -4244,11 +4244,13 @@ body {
   #home-plans section {
     text-align: center;
     position: relative;
-    margin-left: 0.9375em;
-    margin-right: 0.9375em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
     padding: 0;
     width: 300px;
-    cursor: pointer; }
+    cursor: pointer;
+    float: none; }
     #home-plans section h3 {
       margin: 0;
       height: 48px;
@@ -4319,15 +4321,34 @@ body {
       margin: .5rem 1rem; }
 
 @media only screen and (min-width: 40em) {
+  #home-plans {
+    width: 660px; }
+    #home-plans section {
+      text-align: center;
+      margin-left: 0.9375em;
+      margin-right: 0.9375em;
+      float: left; }
+    #home-plans #costs {
+      margin-left: auto;
+      margin-right: auto;
+      float: none; }
+
   #footer li {
     display: inline-block;
     padding: 0 .5rem;
     margin: 1rem .5rem;
     border-right: 1px solid #777777; }
   #footer li:last-child {
-    border-right: none; } }
+    border-right: none; }
+
+  #masthead h3 {
+    margin: 24px 125px 0 0; } }
 @media only screen and (min-width: 60em) {
-  #home-plans h2 {
-    text-align: center; }
-  #home-plans section {
-    text-align: center; } }
+  #home-plans {
+    width: auto; }
+    #home-plans section {
+      margin-bottom: 0; }
+    #home-plans #costs {
+      margin-left: 0.9375em;
+      margin-right: 0;
+      float: left; } }
