@@ -4298,7 +4298,8 @@ placeholder {
       line-height: 19px;
       letter-spacing: 1px;
       text-transform: uppercase;
-      padding-top: 10px; }
+      padding-top: 10px;
+      margin-bottom: 7px; }
     #home-plans section:hover .details {
       max-height: 239px; }
   #home-plans #our_work h3 {
