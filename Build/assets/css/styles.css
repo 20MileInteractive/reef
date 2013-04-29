@@ -4025,7 +4025,6 @@ div#choose-reef-page .pull-quote {
   margin: 2rem auto 0; }
 
 #team {
-  background: #777777;
   padding: 1.5rem auto; }
   #team #bio-photos {
     margin-top: -20px; }
@@ -4079,6 +4078,9 @@ div#choose-reef-page .pull-quote {
 body {
   background: url(../images/main-bg.png); }
 
+.emph_color {
+  color: #D70014 !important; }
+
 .page-title {
   text-align: center;
   margin-top: 1.5rem; }
@@ -4102,11 +4104,26 @@ body {
   color: #FFFFFF;
   line-height: 41px;
   letter-spacing: 1px;
-  text-align: center; }
+  text-align: center;
+  overflow: hidden; }
   #hero p {
     background: url(../images/blueprint.png) no-repeat center bottom;
     padding: 0 0 129px 0; }
   #hero span {
+    color: #D8D8D8; }
+
+#hero_int {
+  position: absolute;
+  top: 0;
+  background: url(../images/home-img.jpg) no-repeat center -165px;
+  width: 100%;
+  height: 155px;
+  padding: 0;
+  z-index: 1; }
+  #hero_int p {
+    background: url(../images/blueprint.png) no-repeat center bottom;
+    padding: 0 0 129px 0; }
+  #hero_int span {
     color: #D8D8D8; }
 
 #masthead {
@@ -4175,15 +4192,23 @@ body {
   color: #777777; }
 
 #choose-reef {
-  background: #777777;
-  color: #fff;
+  background: url(../images/why_reef.png);
+  color: #52504B;
   padding: 2em 0; }
-  #choose-reef h3, #choose-reef h5 {
-    color: #fff; }
+  #choose-reef h3 {
+    color: #52504B;
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 3px;
+    font-weight: normal; }
   #choose-reef h5 {
+    color: #52504B;
+    text-transform: uppercase;
     border-bottom: 1px solid #919191;
     margin-bottom: .5em;
-    padding-bottom: .2em; }
+    padding-bottom: .2em;
+    font-weight: normal; }
   #choose-reef #team img {
     float: left;
     width: 35%; }
@@ -4196,7 +4221,7 @@ body {
     color: #eeeeee;
     text-transform: capitalize; }
   #choose-reef #blog-teaser a {
-    color: #eeeeee;
+    color: #444444;
     border-bottom: 1px dashed #a2a2a2; }
 
 #home-plans {
