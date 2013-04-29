@@ -42,6 +42,27 @@ body {
 .emph_color {
 	color: #D70014 !important;
 }
+
+placeholder {
+	color: #FFFFFF;
+	text-align: right;
+}
+::-webkit-input-placeholder {
+	color: #FFFFFF;
+	text-align: right;
+}
+:-moz-placeholder {
+	color: #FFFFFF;
+	text-align: right;
+}
+::-moz-placeholder {
+	color: #FFFFFF;
+	text-align: right;
+}
+:-ms-input-placeholder {
+	color: #FFFFFF;
+	text-align: right;
+}
 .page-title{
 	text-align: center;
 	margin-top: 1.5rem;
@@ -138,13 +159,16 @@ body {
 		placeholder {
 			color: #FFFFFF;
 		}
-		-webkit-input-placeholder {
+		::-webkit-input-placeholder {
 			color: #FFFFFF;
 		}
-		-moz-placeholder {
+		:-moz-placeholder {
 			color: #FFFFFF;
 		}
-		-ms-input-placeholder {
+		::-moz-placeholder {
+			color: #FFFFFF;
+		}
+		:-ms-input-placeholder {
 			color: #FFFFFF;
 		}
 	}

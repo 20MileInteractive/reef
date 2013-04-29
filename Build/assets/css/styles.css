@@ -4081,6 +4081,26 @@ body {
 .emph_color {
   color: #D70014 !important; }
 
+placeholder {
+  color: #FFFFFF;
+  text-align: right; }
+
+::-webkit-input-placeholder {
+  color: #FFFFFF;
+  text-align: right; }
+
+:-moz-placeholder {
+  color: #FFFFFF;
+  text-align: right; }
+
+::-moz-placeholder {
+  color: #FFFFFF;
+  text-align: right; }
+
+:-ms-input-placeholder {
+  color: #FFFFFF;
+  text-align: right; }
+
 .page-title {
   text-align: center;
   margin-top: 1.5rem; }
@@ -4162,11 +4182,13 @@ body {
     text-transform: uppercase; }
     #header-form input placeholder {
       color: #FFFFFF; }
-    #header-form input -webkit-input-placeholder {
+    #header-form input ::-webkit-input-placeholder {
       color: #FFFFFF; }
-    #header-form input -moz-placeholder {
+    #header-form input :-moz-placeholder {
       color: #FFFFFF; }
-    #header-form input -ms-input-placeholder {
+    #header-form input ::-moz-placeholder {
+      color: #FFFFFF; }
+    #header-form input :-ms-input-placeholder {
       color: #FFFFFF; }
 
 .top-bar {
