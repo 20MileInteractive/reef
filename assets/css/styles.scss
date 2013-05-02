@@ -81,7 +81,8 @@ placeholder {
 #hero{
 	position: absolute;
 	top: 0;
-	background: url(../images/home-img.jpg) no-repeat center -165px;
+	background: url(../images/hero2x.jpg) no-repeat center top;
+	background-size: cover;
 	width: 100%;
 	height: 485px;
 	padding: 177px 0 0 0;
@@ -184,7 +185,7 @@ placeholder {
 		background: none transparent !important;
 		font-family: AvenirNext-Regular;
 		font-size: 13px;
-		color: #3B3A36 !important;
+		color: #fff !important;
 		line-height: 18px;
 		text-transform: uppercase;
 		font-weight: normal !important;
@@ -193,7 +194,7 @@ placeholder {
 #navigation {
 	position: relative;
 	z-index: 200;
-	background: url(../images/nav-bg.png);
+	background: #000;
 }
 .sidebar{
 
@@ -437,11 +438,10 @@ fieldset legend {
 	}
 }
 
-
 }
 
 
-@media only screen and (min-width: 60em) {
+@media only screen and (min-width: 61em) {
 
 #home-plans{
 	width: auto;
@@ -455,10 +455,20 @@ fieldset legend {
 	}
 }
 
+#navigation {
+	background: url(../images/nav-bg.png);
+}
+
+.top-bar {
+	a {
+		color: #3B3A36 !important;
+	}
+}
 
 
-
-
+#hero{
+	background-size: 100%;
+}
 
 
 
